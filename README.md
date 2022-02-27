@@ -18,6 +18,33 @@ Recency – How recently did the customer purchase? Frequency – How often do t
 
 Initially, the data is subject to important stages in an analytics pipeline: exploratory analysis, preprocessing, feature engineering and standardizaton. Then, the unsupervised classification technique, K-means clustering algorithm, is used to determine the ideal segments of customers. Silhouette analysis and related cluster visualizations are leveraged to deduce the optimum value of "K" (number of clusters) in the algorithm. The observations from the results are elaborately discussed before reaching the conclusion from the business perspective.
 
+**what is DBSCAN Clustering:**
+Clustering analysis or simply Clustering is 
+an unsupervised learning method that 
+divides the data points into several
+specific batches or groups, such that the 
+data points in the same groups have 
+similar properties and data points in 
+different groups have different properties 
+in some sense. It comprises many 
+different methods based on differential 
+evolution. E.g. K-Means (distance 
+between points), Affinity propagation 
+(graph distance), Mean-shift (distance 
+between points), DBSCAN (distance 
+between nearest points), Gaussian 
+mixtures (Mahalanobis distance to 
+centers), Spectral clustering (graph 
+distance), etc
+Fundamentally, all clustering methods use 
+the same approach i.e. first we calculate 
+similarities, and then we use it to cluster 
+the data points into groups or batches. 
+Here we will focus on Density-based 
+spatial clustering of applications with 
+noise (DBSCAN) clustering method
+
+
 **Conclusion**
 
 • K-Means Clustering with Silhouette gives the highest score of 61.9% for number of clusters 3.
